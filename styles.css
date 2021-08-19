@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+header{
+    background-color: #fff;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 100px;
+    padding-right: 15px;
+}
+
+header p{
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+section{
+    background-color: #f5f5f5;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 100px;
+    padding: 10 100px;
+    border-top-left-radius: 20px;
+}
+
+section h3 {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+section h3 span{
+    color: #02AEFF;
+    font-size: 25px;
+}
+
+section h6{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+section p{
+    padding: 20px;
+    text-align: center;
+}
+
+.socials{
+    text-align: center;
+    margin: 20px;
+}
+
+.socials .socials-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.socials-1 p{
+    padding: 0 7px;
+}
+
+.stack{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stack h3{
+    color: #02AEFF;
+}
+
+.stack-1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.stack-1 p{
+    margin-left: 7px;
+}
+
+hr{
+    margin: 2px 300px 10px;
+    color: black;
+}
+
+.hng{
+    text-align: center;
+    margin: 10px;
+}
+
+.hng button{
+    margin-top: 7px;
+    background-color: #02AEFF;
+    padding: 6px 12px;
+    border: 2px solid #02AEFF;
+    border-radius: 7px;
+    outline: none;
+}
+
+.hng a{
+    color: #f5f5f5;
+    text-decoration: none;
+    outline: none;
+}
+
+.zuri{
+    margin: 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zuri img{
+    margin-left: 10px;
+}
+
+.zuri p{
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+
+
+
+@media only screen and (max-width: 700px) {
+    hr{
+        margin: 2px 100px 10px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    section {
+        margin: 0 20px;
+    }
+    hr{
+        margin: 2px 100px 10px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    header img {
+        width: 70px;
+        padding-right: 10px;
+    }
+
+    header p{
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    section {
+        padding: 10 20px;
+    }
+
+    hr{
+        margin: 2px 50px 10px;
+        color: black;
+    }
+  }
